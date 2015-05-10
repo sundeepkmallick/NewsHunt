@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+    <color name="yellow1">#F9E60E</color>
+    <color name="yellow2">#F9F89D</color>
+    <color name="orange4">#F7BE45</color>
+    <color name="orange5">#F7D896</color>
+    <color name="blue2">#19FCDA</color>
+    <color name="blue25">#D9F7F2</color>
+    -->
+    <color name="grey05">#ACA899</color>
+    <color name="white1">#FFFFFF</color>
+    <!-- <color name="white2">#DDDDDD</color> -->
+    <color name="green1">#00FF00</color>
+    <color name="green2">#007700</color>
+    <color name="lightBlue">#66FFFF</color>
+    <color name="darkgreen1">#10768D</color>
+    <color name="darkgreen2">#0A4C5C</color>
+    <color name="blueHeading">#1389A5</color>
+    <color name="headingBG">#D0E7ED</color>
+    <color name="button_bg_normal">#0099DD</color>
+    <color name="button_bg_pressed">#00638F</color>
+    <!-- <color name="edittext_bg">#EDFAD8</color> -->
+    <!-- <color name="edittext_bg">#EEEEEE</color> -->
+    <color name="edittext_bg">#eeeeee</color>
+    <!-- <color name="edittext_border">#EDFAD8</color> -->
+
+
+    <!-- wallet colors -->
+    <color name="gray">#F0F1F2</color>
+    <color name="body_bg">#F5F5F5</color>
+    <color name="mobikwik_green_light">#CBF289</color>
+    <color name="mobikwik_green_lightest">#FAFEF3</color>
+    <color name="mobikwik_green_dark">#6EA512</color>
+    <color name="mkblue">#36bcf2</color>
+    <color name="mkgreen">#bbee66</color>
+    <color name="mk_green_text_color">#bbee66</color>
+    <color name="body_bg_new">#FFFFFF</color>
+    <color name="text_color">#000000</color>
+    <color name="button_bg_normal_new">#36bcf2</color>
+
+    <!-- NEW UI COLORS -->
+    <color name="uic_bg">#f2f1f1</color>
+    <color name="uic_btn_bg">#ffffff</color>
+<!--     <color name="uic_btn_pressed">#ff8b25</color> -->
+  <color name="uic_btn_pressed">#4d4e4e</color> 
+    <color name="uic_btn_selected">#4d4e4e</color>
+    <color name="uic_btn_txt_normal">#b0b0b0</color>
+    <color name="uic_btn_txt_selected">#ffffff</color>
+    <color name="uic_header_bg">#F37435</color>
+    <color name="uic_btn_disable">#c2c1c1</color>
+
+</resources>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_otherproducts"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rl_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/bg_light_grey" >
+
+        <GridView
+            android:id="@+id/other_products_grid_view"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/header_ll"
+            android:layout_margin="@dimen/dp_10"
+            android:horizontalSpacing="@dimen/dp_10"
+            android:numColumns="2"
+            android:scrollbars="none"
+            android:verticalSpacing="@dimen/dp_10" >
+        </GridView>
+
+        <ListView
+            android:id="@+id/other_products_list_view"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/header_ll"
+            android:layout_margin="@dimen/dp_10"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="@dimen/dp_10"
+            android:horizontalSpacing="@dimen/dp_10"
+            android:numColumns="2"
+            android:scrollbars="none"
+            android:verticalSpacing="@dimen/dp_10" >
+        </ListView>
+
+        <TextView
+            android:id="@+id/toast_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/recyclerView"
+            android:layout_alignWithParentIfMissing="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="17dp"
+            android:background="@color/menu_header_color"
+            android:paddingBottom="13dip"
+            android:paddingLeft="18dip"
+            android:paddingRight="18dip"
+            android:paddingTop="13dip"
+            android:text=" "
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/show_list_grid"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="70dp"
+            android:layout_marginRight="15dip"
+            android:src="@drawable/show_list" />
+
+        <TextView
+            android:id="@+id/no_products"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/no_products_available"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/txt_orange" />
+
+        <LinearLayout
+            android:id="@+id/header_ll"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/linearlayoutSortFilter"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone" >
+
+                <Button
+                    android:id="@+id/buttonSort"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/dp_50"
+                    android:layout_weight="1"
+                    android:background="@drawable/custom_blue_button"
+                    android:text="@string/sort_by"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/sp_18" />
+
+                <Button
+                    android:id="@+id/buttonFilter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/dp_50"
+                    android:layout_marginLeft="@dimen/dp_2"
+                    android:layout_weight="1"
+                    android:background="@drawable/custom_green_button"
+                    android:text="@string/filter"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/sp_18" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

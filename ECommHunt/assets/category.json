@@ -1,0 +1,144 @@
+{
+    "status": "pass",
+    "error": "",
+    "data": {
+        "catalog": [
+            {
+                "catalog_id": "POLITICS",
+                "catalog_name": "Politics",
+                "category": [
+                    {
+                        "category_id": "Country",
+                        "category_name": "Country",
+                        "subcategory": [
+                            {
+                                "subcategory_id": "topic1",
+                                "subcategory_name": "Topic 1"
+                            },
+                            {
+                                "subcategory_id": "topic2",
+                                "subcategory_name": "Topic 2"
+                            }
+                        ]
+                    },
+                    {
+                        "category_id": "STATE",
+                        "category_name": "State",
+                        "subcategory": [
+                            {
+                                "subcategory_id": "topic3",
+                                "subcategory_name": "Topic 3"
+                            },
+                            {
+                                "subcategory_id": "topic4",
+                                "subcategory_name": "Topic 4"
+                            },
+                            {
+                                "subcategory_id": "topic5",
+                                "subcategory_name": "Topic 5"
+                            }
+                        ]
+                    },
+                    {
+                        "category_id": "INTERNATIONAL",
+                        "category_name": "International",
+                        "subcategory": [
+                            {
+                                "subcategory_id": "topic6",
+                                "subcategory_name": "Topic 6"
+                            },
+                            {
+                                "subcategory_id": "topic7",
+                                "subcategory_name": "Topic 7"
+                            },
+                            {
+                                "subcategory_id": "topic8",
+                                "subcategory_name": "Topic 8"
+                            },
+                            {
+                                "subcategory_id": "topic9",
+                                "subcategory_name": "Topic 9"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "catalog_id": "LITERATURE",
+                "catalog_name": "Literature",
+                "category": [
+                    {
+                        "category_id": "History",
+                        "category_name": "History",
+                        "subcategory": [
+                            {
+                                "subcategory_id": "topic10",
+                                "subcategory_name": "Topic 10"
+                            },
+                            {
+                                "subcategory_id": "topic11",
+                                "subcategory_name": "Topic 11"
+                            }
+                        ]
+                    },
+                    {
+                        "category_id": "MODERN",
+                        "category_name": "Modern",
+                        "subcategory": [
+                            {
+                                "subcategory_id": "topic12",
+                                "subcategory_name": "Lip Balms"
+                            },
+							{
+                                "subcategory_id": "topic13",
+                                "subcategory_name": "Topic 14"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "catalog_id": "HOTNEWS",
+                "catalog_name": "Hot News",
+                "category": [
+                    {
+                        "category_id": "NATIONAL NEWS",
+                        "category_name": "Nationa news",
+                        "subcategory": [
+                            {
+                                "subcategory_id": "news1",
+                                "subcategory_name": "News 1"
+                            },
+                            {
+                                "subcategory_id": "news2",
+                                "subcategory_name": "News 2"
+                            },
+                            {
+                                "subcategory_id": "news3",
+                                "subcategory_name": "News 3"
+                            }
+                        ]
+                    },
+                    {
+                        "category_id": "localnews",
+                        "category_name": "Local News",
+                        "subcategory": [
+                            {
+                                "subcategory_id": "news4",
+                                "subcategory_name": "News 4"
+                            },
+                            {
+                                "subcategory_id": "news5",
+                                "subcategory_name": "News 5"
+                            },
+                            {
+                                "subcategory_id": "news6",
+                                "subcategory_name": "News 6"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

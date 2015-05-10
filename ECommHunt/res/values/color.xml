@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="list_item_title">#fff</color>
+    <color name="list_background">#303030</color>
+    <color name="list_background_pressed">#992416</color>
+    <color name="list_divider">#272727</color>
+    <color name="menu_list_divider">#60272727</color>
+    <color name="counter_text_bg">#626262</color>
+    <color name="counter_text_color">#c5c4c4</color>
+    <color name="bg_grey"> #E6E6E6</color>
+    <color name="txt_black">#2d2d2d</color>
+    <color name="txt_blue_sh">#2E4B94</color>
+    <color name="txt_blues">#365197</color>
+    <color name="white">#FFFFFF</color>
+    <color name="bg_light_grey">#F4F4F4</color>
+    <color name="bg_white">#FFFFFF</color>
+    <color name="green">#006400</color>
+    <color name="txt_orange">#F37435</color>
+    <color name="txt_blue">#2E4B94</color>
+    <color name="txt_title">#242424</color>
+    <color name="txt_subtitle">#252525</color>
+    <color name="txt_grey">#909090</color>
+    <color name="menu_header_color">#646464</color>
+    <color name="menu_sub_header_color">#A1A1A1</color>
+    <color name="red">#ff0000</color>
+    <color name="lightorange">#FBCEB1</color>
+  <color name="txt_greydark">#2d2d2d</color>
+   <color name="greendark">#266A2E</color>
+   <color name="brand_list_divider">#EDEDED</color>
+   
+   
+   <color name="hunt_yellow">#F3EA1F</color>
+   <color name="hunt_green">#6FBD46</color>
+   <color name="hunt_blue">#2591CF</color>
+   <color name="hunt_red">#D7232A</color>
+  
+</resources>
